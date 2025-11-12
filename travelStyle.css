@@ -1,0 +1,78 @@
+body { /* general styling */
+    background-color: #E9FCE9; /* Light background */
+    color: black;
+    font-family: Verdana, sans-serif; /* Font for text */
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+h1, h2 { /* Font for headings */
+    font-family: Georgia, serif;
+}
+header { /* style for heading*/
+    background-color: #4F7942;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+}
+nav {
+    text-align: center; /* center links */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+    margin: 15px; /* Equal spacing between links */
+    padding: 5px 10px;
+}
+nav a:hover {
+    color: #106510; /* Hover color change */
+    text-decoration: underline #106510 ; /* for underline */
+}
+#home, #attractions, #food, #contact {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #d3d2d2; 
+    line-height: 1.6; /* for easy to read */
+}
+#attractions ul {
+    list-style-type: none; /* removing default bullets */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#attractions ul li {
+    width: 45%; /* Adjust for 2 per imgs row */
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #d3d2d2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: larger;
+    text-align: center; /* Center the text and image */
+}
+#attractions img { /* styling for images */
+    border: 2px solid #d3d2d2;
+    border-radius: 5px;
+    width: 100%; /* Make images responsive to fit the box */
+    height: auto;
+    width: 100%;
+}
+#food img {
+    width: 300px;
+    height: 100;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+footer {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    color: #686767;
+}
