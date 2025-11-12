@@ -1,3 +1,6 @@
+* {
+    scroll-behavior: smooth; /* for smooth animation when clicking navigation bar */
+}
 body { /* general styling */
     background-color: #E9FCE9; /* Light background */
     color: black;
